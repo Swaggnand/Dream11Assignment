@@ -31,6 +31,7 @@ public class BaseTest extends Pojo {
 		browser = this.getObjProp().getProperty("browser");
 		if (browser.trim().equalsIgnoreCase("chrome")) {
 			ChromeOptions options = new ChromeOptions();
+			//Swanand
 			
 			
 			Map<String, Object> prefs = new HashMap<String, Object>();
