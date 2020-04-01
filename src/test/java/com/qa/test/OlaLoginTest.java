@@ -25,6 +25,7 @@ public class OlaLoginTest extends BaseTest{
 	@BeforeMethod
 	public void beforeMethod() {
 		getDriver().navigate().refresh();
+		//hello
 	}
 	
 	@BeforeClass
